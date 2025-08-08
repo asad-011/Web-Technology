@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="external.css">
+    <title>personal Details</title>
+</head>
+<body><div class="formContainer">
+    <form action="">
+        <h1>Personal Detail</h1>
+        <div class="personalCOntainer">
+            <div>
+                <span>Name :</span> <input type="text" name="name" placeholder="name" >
+            </div>
+            <div>
+                <span>Passowrd :</span> <input type="text" placeholder="Passowrd">
+            </div>
+            <div>
+                <span>Email :</span> <input type="text" placeholder="Email">
+            </div>
+            <div>
+                <span>Gender :</span>
+                    <input type="radio" value="Male" name="gender">Male</input>
+                    <input type="radio" value="Female" name="gender">Female</input>
+                    <input type="radio" value="Female" name="gender">Other</input>
+            </div>
+            <div>
+                <span>Contact# :</span>
+                <input type="text" value="+91 ">
+            </div>
+        </div>
+        <div><h1>Eductional Qualification</h1><div> 
+        <div class="EducationContainer">  
+            <div><span>Degree :</span>
+                <select name="degree">
+                    <option value=""> -- Select Group -- </option>
+                    <option value="degree" name="degree">B.Tech</option>
+                    <option value="degree" name="degree">M.Tech</option>
+                    <option value="degree" name="degree">Phd</option>
+                </select>
+            </div>
+            <div><span>Engineering</span>
+                <select name="Engineering">
+                    <option value=""> -- Select Group -- </option>
+                    <option value="course" name="course">CSE</option>
+                    <option value="course" name="course">ECE</option>
+                    <option value="course" name="course">Civil</option>
+                </select>
+            </div>
+            <div>
+                <span>Hobbies :</span>
+                <input type="checkbox" name="hobbies">playing Chess</input>
+                <input type="checkbox" name="hobbies">Reading Books</input>
+            </div>
+        </div>
+
+        <h1>Address</h1>
+        <div class="addressContainer">
+            <div class="textArea">
+                <textarea id="address" name="address"></textarea>
+            </div>
+            <div>
+            <span>Attach Resume :</span>
+            <input type="file" accept=".pdf, .docx">
+            </div>
+        </div>
+    
+        <div class="ButtonContainer">
+            <button class="submitButton" type="submit">SUBMIT &#10148;</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
