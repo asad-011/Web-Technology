@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Food Court</title>
+
+    <!-- Google Font: Playfair Display -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Base Styling */
+      body {
+        background-color: #35699c;
+        font-family: "Playfair Display", serif;
+        color: white;
+        padding: 40px;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      /* Heading Styling */
+      h1 {
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 40px;
+        color: #ffffff;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Navigation Menu */
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 320px;
+      }
+
+      li {
+        background-color: #35699c;
+        transition: transform 0.2s ease;
+      }
+
+      li:hover {
+        transform: scale(1.4);
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 14px 20px;
+        text-align: center;
+      }
+
+      a:hover {
+        background-color: #35699c;
+        color: #c3bfff;
+      }
+
+      /* Responsive Padding */
+      @media (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 32px;
+        }
+
+        a {
+          font-size: 16px;
+          padding: 12px 16px;
+        }
+      }
+      .card {
+        text-align: center;
+        color: white;
+        margin: 10px;
+      }
+
+      .icon {
+        padding: 10px 0px 0px 0px;
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      .text {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <i class="fas fa-gift icon"></i>
+      <div class="text">Neaty</div>
+    </div>
+    <ul>
+      <li><a href="content.html" target="contentframe">Welcome</a></li>
+      <li><a href="About Us.html" target="contentframe">About Us</a></li>
+      <li><a href="Gallery One.html" target="contentframe">Gallery One</a></li>
+      <li>
+        <a href="Second Gallery.html" target="contentframe">Second Gallery</a>
+      </li>
+      <li>
+        <a href="Third Gallery.html" target="contentframe">Order Food</a>
+      </li>
+      <li><a href="Contact Us.html" target="contentframe">Contact Us</a></li>
+    </ul>
+  </body>
+</html>
