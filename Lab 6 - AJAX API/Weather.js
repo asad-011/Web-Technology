@@ -1,6 +1,6 @@
 function checkWeather() {
   var pincode = document.getElementById("pincode").value;
-  var apiKey = "b9cda8de934fba788999e5ebc2746c2a";
+  var apiKey = "";
   var url = `https://api.openweathermap.org/data/2.5/weather?zip=${pincode},IN&units=metric&appid=${apiKey}`;
 
   var xmlHttp = new XMLHttpRequest();
@@ -27,3 +27,4 @@ function checkWeather() {
   };
   xmlHttp.send();
 }
+
